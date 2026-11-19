@@ -1,0 +1,8 @@
+name = "book-proxy"
+main = "src/index.js"
+compatibility_date = "2026-11-19"
+
+# 自有域名绑定：部署后 Cloudflare 自动配置 DNS 与 HTTPS 证书
+[[routes]]
+pattern = "yiyeyishu.wanxinrong.cc.cd/*"
+zone_name = "wanxinrong.cc.cd"
